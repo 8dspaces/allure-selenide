@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_project.iml" filepath="$PROJECT_DIR$/.idea/modules/test_project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_project_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test_project_main.iml" group="test_project" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test_project_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test_project_test.iml" group="test_project" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allure-selenide.iml" filepath="$PROJECT_DIR$/.idea/modules/allure-selenide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allure-selenide_main.iml" filepath="$PROJECT_DIR$/.idea/modules/allure-selenide_main.iml" group="allure-selenide" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allure-selenide_test.iml" filepath="$PROJECT_DIR$/.idea/modules/allure-selenide_test.iml" group="allure-selenide" />
     </modules>
   </component>
 </project>

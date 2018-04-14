@@ -16,11 +16,13 @@ public class Sign {
     public void openHomePage() {
         open(Values.host);
     }
+
     @Step("Enter login")
     public void enterLogin(String login) {
         $(By.xpath("//button[text()='Sign In']")).shouldHave(visible, text(Values.text));
         $("#validation-email").setValue(login);
     }
+
     @Step("Click Forgot Password")
     public void forgotPassword(String email){
         $(By.xpath("//a[text()='Forgot Password?']")).shouldHave(visible).click();
@@ -31,12 +33,12 @@ public class Sign {
     }
 
 
-
     @Step("Enter password")
     public void enterPass(String pass){
         $("#validation-password").setValue(pass);
 
     }
+
     @Step("Click on the button - Sign in")
     public void clickButton(){
         $(By.xpath("//button[text()='Sign In']")).shouldHave(visible).click();

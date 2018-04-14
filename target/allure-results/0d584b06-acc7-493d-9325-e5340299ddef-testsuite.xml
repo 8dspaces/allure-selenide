@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1523663724878" stop="1523663734838" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite1 : Test</name>
+    <title>Suite1 : Test</title>
+    <test-cases>
+        <test-case start="1523663725124" stop="1523663734585" status="passed">
+            <name>userCanSearch</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite1"/>
+                <label name="testGroup" value="Test"/>
+                <label name="testClass" value="GoogleTest"/>
+                <label name="testMethod" value="userCanSearch"/>
+                <label name="host" value="mick-mac.local"/>
+                <label name="thread" value="42731@mick-mac.local.Test worker(10)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
