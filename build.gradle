@@ -1,6 +1,19 @@
 apply plugin: 'java'
 apply plugin: 'maven'
 
+//apply plugin: 'war'
+//apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+//gradle appRun
+//apply from: 'gretty.plugin'
+//apply plugin: 'org.akhikhl.gretty'
+
+//gretty {
+//    httpPort = 8081
+//    contextPath = "/"
+//    //contextPath = "site/allure-gradle"
+//    // ... many more properties
+//}
+
 group = 'com.test'
 version = '1.0-SNAPSHOT'
 
@@ -13,10 +26,10 @@ tasks.withType(JavaCompile) {
 }
 
 
-
 repositories {
         
-     maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url "http://repo.maven.apache.org/maven2" }
+
 }
 dependencies {
     compile group: 'org.testng', name: 'testng', version:'6.9.6'
@@ -27,18 +40,45 @@ dependencies {
     compile group: 'javax.mail', name: 'javax.mail-api', version:'1.5.5'
     compile group: 'com.sun.mail', name: 'javax.mail', version:'1.5.5'
     testCompile group: 'com.google.code.gson', name: 'gson', version:'2.8.2'
-}
 
-
-test {
-    useTestNG() {
-        useDefaultListeners = true
-        suites "testng.xml"
-    }
 }
 
 //get from goolge repo
 task libs(type: Sync) {
     from configurations.testCompile
     into "$buildDir/lib"
+}
+
+
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.5"
+    }
+}
+
+
+apply plugin: 'io.qameta.allure'
+
+
+allure {
+    autoconfigure = true
+    version = '2.4.1'
+    reportDir = file('build/serverBaseDir_jetty9/webapps-exploded/site/allure-gradle')
+
+    useTestNG {
+        //version = '2.0-BETA10'
+        //suites(file('./testng.xml'));
+
+    }
+}
+//'allureReport', 'allureServe'
+
+test {
+    useTestNG()
+    include "GoogleTest.*"
 }

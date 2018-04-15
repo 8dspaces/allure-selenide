@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-13T23:55:24" hostname="mick-mac.local" time="9.683">
+<testsuite name="GoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-15T01:22:58" hostname="mick-mac.local" time="10.607">
   <properties/>
-  <testcase name="userCanSearch" classname="GoogleTest" time="9.683"/>
+  <testcase name="userCanSearch" classname="GoogleTest" time="10.607"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 8378
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 24365
 Only local connections are allowed.
-四月 14, 2018 7:55:30 上午 com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
-信息: Create webdriver in current thread 10: Chrome -> ChromeDriver: chrome on MAC (338e928525fe099b758a3e965c468b05)
+四月 15, 2018 9:23:06 上午 com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+信息: Create webdriver in current thread 10: Chrome -> ChromeDriver: chrome on MAC (d6833f497b02fa168bfaf5b5a6b39018)
 ]]></system-err>
 </testsuite>
