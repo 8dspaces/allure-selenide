@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "mick-mac.local",
+    "children" : [ {
+      "name" : "15446@mick-mac.local.Test worker(10)",
+      "children" : [ {
+        "name" : "userCanSearch",
+        "uid" : "e496d6f60240889a",
+        "parentUid" : "b3afec64d2f9343d21f2ee594eee528c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1523755378847,
+          "stop" : 1523755389165,
+          "duration" : 10318
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userCanSearch",
+        "uid" : "332543e55f15b24a",
+        "parentUid" : "b3afec64d2f9343d21f2ee594eee528c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1523755378921,
+          "stop" : 1523755389702,
+          "duration" : 10781
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3afec64d2f9343d21f2ee594eee528c"
+    } ],
+    "uid" : "81a6a6606998c908d6f1e44b82441033"
+  } ]
+}

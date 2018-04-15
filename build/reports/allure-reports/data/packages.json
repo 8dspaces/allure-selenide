@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "GoogleTest",
+    "children" : [ {
+      "name" : "userCanSearch",
+      "uid" : "e496d6f60240889a",
+      "parentUid" : "55d0c3c60d1db4e21f4d34f92a447a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523755378847,
+        "stop" : 1523755389165,
+        "duration" : 10318
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCanSearch",
+      "uid" : "332543e55f15b24a",
+      "parentUid" : "55d0c3c60d1db4e21f4d34f92a447a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523755378921,
+        "stop" : 1523755389702,
+        "duration" : 10781
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "55d0c3c60d1db4e21f4d34f92a447a9e"
+  } ]
+}

@@ -68,7 +68,7 @@ apply plugin: 'io.qameta.allure'
 allure {
     autoconfigure = true
     version = '2.4.1'
-    reportDir = file('build/serverBaseDir_jetty9/webapps-exploded/site/allure-gradle')
+    reportDir = file('allure-reports')
 
     useTestNG {
         //version = '2.0-BETA10'
