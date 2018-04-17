@@ -5,25 +5,25 @@
     "name" : "GoogleTest",
     "children" : [ {
       "name" : "userCanSearch",
-      "uid" : "e496d6f60240889a",
+      "uid" : "3116760b9b9d4872",
       "parentUid" : "55d0c3c60d1db4e21f4d34f92a447a9e",
       "status" : "passed",
       "time" : {
-        "start" : 1523755378847,
-        "stop" : 1523755389165,
-        "duration" : 10318
+        "start" : 1523804382577,
+        "stop" : 1523804391766,
+        "duration" : 9189
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "userCanSearch",
-      "uid" : "332543e55f15b24a",
+      "uid" : "6324764778d5156d",
       "parentUid" : "55d0c3c60d1db4e21f4d34f92a447a9e",
       "status" : "passed",
       "time" : {
-        "start" : 1523755378921,
-        "stop" : 1523755389702,
-        "duration" : 10781
+        "start" : 1523804382687,
+        "stop" : 1523804391778,
+        "duration" : 9091
       },
       "flaky" : false,
       "parameters" : [ ]
