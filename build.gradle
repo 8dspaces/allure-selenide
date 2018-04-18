@@ -35,7 +35,10 @@ repositories {
 }
 dependencies {
     compile group: 'org.testng', name: 'testng', version:'6.9.6'
-    compile group: 'ru.yandex.qatools.allure', name: 'allure-testng-adaptor', version:'1.5.4'
+//    compile group: 'ru.yandex.qatools.allure', name: 'allure-testng-adaptor', version:'1.5.4'
+    //compile group: 'ru.yandex.qatools.allure', name: 'allure-java-commons', version:'1.3.9'
+    compile group: 'ru.yandex.qatools.allure', name: 'allure-java-aspects', version: '1.5.4'
+    compile group: 'ru.yandex.qatools.allure', name: 'allure-commons', version: '1.5.4'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version:'2.53.1'
     compile group: 'com.codeborne', name: 'selenide', version:'4.7'
     compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version:'1.7.1'
@@ -86,6 +89,35 @@ allure {
 //'allureReport', 'allureServe'
 
 test {
+    apply plugin: 'io.qameta.allure'
+
+
+    allure {
+
+        version = '2.6.0'
+        //aspectjweaver = true
+        autoconfigure = true
+
+        reportDir = file("$rootDir/target/allure-report")
+        resultsDir = file("$rootDir/target/allure-results")
+
+        useTestNG (){
+            version = '2.6.0'
+            spiOff = true
+
+        }
+    }
+//'allureReport', 'allureServe'
+
+    test {
+
+        useTestNG(){
+            include "GoogleTest.*"
+            //suites (file('./testng.xml'));
+            //useDefaultListeners = false
+        }
+
+    }
 
     useTestNG(){
         include "GoogleTest.*"

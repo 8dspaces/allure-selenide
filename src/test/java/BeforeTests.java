@@ -3,7 +3,7 @@ import config.Values;
 import listeners.AllureSelenide;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import ru.yandex.qatools.allure.annotations.Step;
+//import ru.yandex.qatools.allure.annotations.Step;
 
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
@@ -19,7 +19,7 @@ public class BeforeTests {
         //Doesn't matter chrome or Chrome as this is case insensitive.
         System.setProperty("selenide.browser", "Chrome");
 
-        //SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(false));
     }
 
 

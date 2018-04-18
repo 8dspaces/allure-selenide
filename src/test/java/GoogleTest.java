@@ -28,7 +28,7 @@ public class GoogleTest extends BeforeTests{
     GooglePage page = open("http://www.baidu.com/", GooglePage.class);
     SearchResultsPage results = page.searchFor("selenide");
     //results.getResults().shouldHave(sizeGreaterThan(1));
-    results.getResult(0).shouldHave(text("xxxx"));
+    results.getResult(0).shouldHave(text("selenide"));
   }
 
 }
