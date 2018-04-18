@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/target/allure-results/04ed5572-6358-48fd-8f48-7c1fe321257b-testsuite.xml" />
+    <file url="file://$PROJECT_DIR$/target/allure-results/fcec675a-08f9-46dc-bd9c-951e9f70e4b9-testsuite.xml" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

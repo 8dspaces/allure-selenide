@@ -1,11 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-15T14:59:42" hostname="mick-mac.local" time="9.468">
+<testsuite name="GoogleTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-04-18T00:32:40" hostname="mick-mac.local" time="12.687">
   <properties/>
-  <testcase name="userCanSearch" classname="GoogleTest" time="9.468"/>
+  <testcase name="userCanSearch" classname="GoogleTest" time="12.687">
+    <failure message="Element should have text 'xxxx' {#content_left .t}&#10;Element: '&lt;h3 class=&quot;t c-title-en&quot;&gt;Selenide: concise UI tests in Java&lt;/h3&gt;'&#10;Screenshot: file:/Users/qimick/Documents/SourceSmart/@java/allure-selenide/build/reports/tests/1524011572424.0.png&#10;Page source: file:/Users/qimick/Documents/SourceSmart/@java/allure-selenide/build/reports/tests/1524011572424.0.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have text 'xxxx' {#content_left .t}
+Element: '&lt;h3 class=&quot;t c-title-en&quot;&gt;Selenide: concise UI tests in Java&lt;/h3&gt;'
+Screenshot: file:/Users/qimick/Documents/SourceSmart/@java/allure-selenide/build/reports/tests/1524011572424.0.png
+Page source: file:/Users/qimick/Documents/SourceSmart/@java/allure-selenide/build/reports/tests/1524011572424.0.html
+Timeout: 4 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:66)
+	at com.codeborne.selenide.commands.Should.should(Should.java:35)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:29)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:12)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:143)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:87)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:63)
+	at com.sun.proxy.$Proxy16.shouldHave(Unknown Source)
+	at GoogleTest.userCanSearch(GoogleTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:129)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:88)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 10422
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 15981
 Only local connections are allowed.
-四月 15, 2018 10:59:49 下午 com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
-信息: Create webdriver in current thread 10: Chrome -> ChromeDriver: chrome on MAC (cb0bb7c1e440b75bd15d62153f111824)
+四月 18, 2018 8:32:44 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+四月 18, 2018 8:32:45 上午 com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+信息: BrowserName=chrome Version=65.0.3325.181 Platform=MAC
+四月 18, 2018 8:32:45 上午 com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+信息: Selenide v. 4.7
+四月 18, 2018 8:32:45 上午 com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+信息: Selenium WebDriver v. 3.5.3 build time: 2017-08-29T12:42:44.417Z
+四月 18, 2018 8:32:45 上午 com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+信息: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (bf9309d5d1d21d3dd57d501c282c92a3)
 ]]></system-err>
 </testsuite>

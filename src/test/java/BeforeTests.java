@@ -9,9 +9,6 @@ import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 
-//@Listeners(new AllureSelenide().screenshots(true).savePageSource(false))
-
-
 
 public class BeforeTests {
 

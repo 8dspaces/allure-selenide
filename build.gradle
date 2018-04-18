@@ -69,19 +69,28 @@ apply plugin: 'io.qameta.allure'
 
 
 allure {
-    autoconfigure = true
-    version = '2.6.0'
-    reportDir = file("$rootDir/target/allure-report")
 
-    useTestNG {
-        //version = '2.0-BETA10'
-        //suites(file('./testng.xml'));
+    version = '2.6.0'
+    //aspectjweaver = true
+    autoconfigure = true
+
+    reportDir = file("$rootDir/target/allure-report")
+    resultsDir = file("$rootDir/target/allure-results")
+
+    useTestNG (){
+        version = '2.6.0'
+        spiOff = true
 
     }
 }
 //'allureReport', 'allureServe'
 
 test {
-    useTestNG()
-    include "GoogleTest.*"
+
+    useTestNG(){
+        include "GoogleTest.*"
+        //suites (file('./testng.xml'));
+        //useDefaultListeners = false
+    }
+
 }

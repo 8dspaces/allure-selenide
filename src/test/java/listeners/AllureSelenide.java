@@ -21,7 +21,7 @@ import java.util.UUID;
 public class AllureSelenide implements LogEventListener {
 
     private boolean saveScreenshots = true;
-    private boolean savePageHtml = true;
+    private boolean savePageHtml = false;
 
     private final AllureLifecycle lifecycle;
 

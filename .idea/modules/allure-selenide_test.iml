@@ -11,7 +11,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="allure-selenide_main" />
     <orderEntry type="library" name="Gradle: ru.yandex.qatools.allure:allure-testng-adaptor:1.5.4" level="project" />
-    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-testng:2.0-BETA21" level="project" />
+    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-testng:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-testng:spi-off:2.6.0" level="project" />
     <orderEntry type="library" name="Gradle: org.testng:testng:6.10" level="project" />
     <orderEntry type="library" name="Gradle: com.codeborne:selenide:4.7" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:selenium-java:3.5.3" level="project" />
@@ -34,8 +35,8 @@
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" level="project" />
     <orderEntry type="library" name="Gradle: net.lightbody.bmp:browsermob-core:2.1.5" level="project" />
     <orderEntry type="library" name="Gradle: net.lightbody.bmp:littleproxy:1.1.0-beta-bmp-17" level="project" />
-    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-descriptions-javadoc:2.0-BETA21" level="project" />
-    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-java-commons:2.0-BETA21" level="project" />
+    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-descriptions-javadoc:2.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.qameta.allure:allure-java-commons:2.6.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:23.0" level="project" />
     <orderEntry type="library" name="Gradle: com.codeborne:phantomjsdriver:1.4.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
