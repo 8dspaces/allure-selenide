@@ -3,7 +3,9 @@ import listeners.AllureOnFailListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Step;
+import ru.yandex.qatools.allure.annotations.Stories;
 import ru.yandex.qatools.allure.annotations.Title;
 
 
@@ -22,13 +24,14 @@ import pages.SearchResultsPage;
 @Title("Test")
 public class GoogleTest extends BeforeTests{
 
-
+  @Features("Search Baidu Testing")
+  @Stories("baidu testing")
   @Test
   public void userCanSearch() {
     GooglePage page = open("http://www.baidu.com/", GooglePage.class);
     SearchResultsPage results = page.searchFor("selenide");
     //results.getResults().shouldHave(sizeGreaterThan(1));
-    results.getResult(0).shouldHave(text("selenide"));
+    results.getResult(0).shouldHave(text("xelenide"));
   }
 
 }

@@ -9,13 +9,18 @@ import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 
+import java.io.File;
+
 
 public class BeforeTests {
 
 
     @BeforeClass
     public static void setupClass() {
-        System.setProperty("webdriver.chrome.driver", "/Users/qimick/Documents/SourceSmart/@java/TestNG-Allure-Selenide/chromedriver");
+
+        String cwd = System.getProperty("user.dir");
+        System.setProperty("webdriver.chrome.driver", cwd + File.separator + "chromedriver");
+
         //Doesn't matter chrome or Chrome as this is case insensitive.
         System.setProperty("selenide.browser", "Chrome");
 
