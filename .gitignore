@@ -1,6 +1,7 @@
 .allure/
 .gradle/
 .settings/
+.idea/
 build
 target
 bin

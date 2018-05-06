@@ -1,6 +1,8 @@
 
 import listeners.AllureOnFailListener;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import ru.yandex.qatools.allure.annotations.Features;
@@ -18,8 +20,6 @@ import pages.SearchResultsPage;
 
 
 
-
-
 //@Listeners(AllureOnFailListener.class)
 @Title("Test")
 public class GoogleTest extends BeforeTests{
@@ -33,5 +33,16 @@ public class GoogleTest extends BeforeTests{
     //results.getResults().shouldHave(sizeGreaterThan(1));
     results.getResult(0).shouldHave(text("Selenide"));
   }
+
+    @Features("use parameters")
+    @Parameters({ "username", "password" })
+    @Test
+    public void useParameters(@Optional("mysql") String username, @Optional("mysql") String password) {
+
+      System.out.println("output is - " + username);
+      System.out.println("output is - " + password);
+
+
+    }
 
 }

@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-29T03:57:41" hostname="mick-mac.local" time="7.251">
+<testsuite name="GoogleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-06T08:45:20" hostname="mick-mac.local" time="9.283">
   <properties/>
-  <testcase name="userCanSearch" classname="GoogleTest" time="7.251"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 46314
+  <testcase name="useParameters[0](testuser, testpassword)" classname="GoogleTest" time="0.108"/>
+  <testcase name="userCanSearch" classname="GoogleTest" time="8.88"/>
+  <system-out><![CDATA[output is - testuser
+output is - testpassword
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 11818
 Only local connections are allowed.
-四月 29, 2018 11:57:45 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+五月 06, 2018 4:45:26 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
 信息: Detected dialect: OSS
-四月 29, 2018 11:57:46 上午 com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
-信息: BrowserName=chrome Version=65.0.3325.181 Platform=MAC
-四月 29, 2018 11:57:46 上午 com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+五月 06, 2018 4:45:27 下午 com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+信息: BrowserName=chrome Version=66.0.3359.139 Platform=MAC
+五月 06, 2018 4:45:27 下午 com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
 信息: Selenide v. 4.7
-四月 29, 2018 11:57:46 上午 com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+五月 06, 2018 4:45:27 下午 com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
 信息: Selenium WebDriver v. 3.5.3 build time: 2017-08-29T12:42:44.417Z
-四月 29, 2018 11:57:46 上午 com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
-信息: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (08f015b2ccb652e8b779ea8aada4ba7e)
+五月 06, 2018 4:45:27 下午 com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+信息: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (422f00be991e7ae465c38924ba17760a)
 ]]></system-err>
 </testsuite>

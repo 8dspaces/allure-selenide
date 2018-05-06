@@ -1,7 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Selenium-Example" verbose="1">
+
     <test name="Google-Test" >
+        <parameter name="username" value="testuser"/>
+        <parameter name="password" value="testpassword"/>
         <classes>
             <class name="GoogleTest" />
         </classes>
