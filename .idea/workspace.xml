@@ -2,40 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="135f7693-d080-4ac1-899d-085f6fa9fa88" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_2_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_5_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_core_2_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_impl_2_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_xml_fastinfoset_FastInfoset_1_2_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_qameta_allure_allure_testng_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_activation_activation_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_mail_javax_mail_api_1_5_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_2_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jsr173_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_yandex_qatools_allure_allure_java_commons_1_3_9.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/annotation-processors.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileContent/fileContent.lock" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/0bc1250c-318d-42ea-a71d-17ddfd3c98e1-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/1411c354-9532-4778-8f1b-df2a75387f13-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/1795a537-e154-44d9-b7f4-58d69fd99e04-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/18a19d39-de05-4f28-acd9-ed5f4d35c1fe-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/1a68826d-2f10-4cbd-9af6-5fcced40946c-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/1d857dc5-6e62-4bc1-aed0-cd2e9c491dbd-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/213e4581-edb5-43d5-b913-5626c2043b88-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/22b79095-44d0-41b0-8222-797c320e83d3-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/26725bc8-b0a2-4c08-8ebe-755f3b239e71-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/2ce49055-9e98-4bd0-816f-3bc7bad51751-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/34b98316-377f-461c-a2b1-401d0646ae00-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/3a7e49c6-03da-4d82-87c1-051bf8f58e3f-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/3b01729b-7854-4de6-819c-377e65de4355-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/4fc802ca-2f79-48b7-87fd-e8182d79a918-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/579f54d3-fb13-4cec-9a1f-cbd7ba000938-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/63ebd478-dc70-4711-953d-87750f6cbbb3-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/6d776184-0c02-48ec-b99f-eedee7452c6a-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/6e023b8c-9299-4f0f-9060-ff986c6ef28b-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/6fa0a82a-cc84-4b71-a46f-94ba2638d71e-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/72a0e6b1-e15e-4ac7-9389-114623fb0a95-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/7585ec11-ae71-42ba-a378-b0972fa8892f-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/7c006472-a24d-4737-8c7b-4dcde550a0fa-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/85d80a86-c2bd-4d6f-8f4f-94b2d0ea6027-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/8cbc5631-db1d-4a99-961a-95cda2d6b290-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/906d9004-dd05-4540-9372-c1265f63b033-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/9189c040-4bf7-4a76-a793-d5d3b99c2b69-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/9903d070-bdfc-4d23-b09d-819307733ad6-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/a0c99881-5edb-4242-af26-a7edbaf16277-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/a1b57143-281a-4432-b3ad-ffbafb7ba11a-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/b8b3284c-b441-4da0-a8ab-63160e98bba9-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/be8beb6e-0808-49a8-a92b-6eb39fa0888e-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/c8b54e1d-197d-4b41-bd7f-171dfe92c427-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/c9081312-bf31-4a3b-8ab7-a145c6502fa5-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/ceaa4ac7-6c6a-4eb9-8ab8-4630e2b1bbf5-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/e4d54591-cde7-45a3-b34e-f642b0e0d786-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/e5341735-530b-4229-87e8-ac14c1e75534-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/e67d9195-966d-4e08-80b3-3d2464b0c425-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/ea79b74a-24f5-44a1-9336-fa54b9adae8a-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/eb3fd199-ded6-46d7-8b7a-14321853c812-result.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/ec29280e-20ce-4e6c-87ad-07df27df248f-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/ee70eac9-4cfb-4327-8e61-cd9d8f9e12d6-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/f6264931-e78c-440c-be47-83887d5c7501-container.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-results/fc7aa8c5-9be7-43cb-966a-f7c2385e535a-result.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/java/test/GoogleTest.class" afterPath="$PROJECT_DIR$/build/classes/java/test/GoogleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/allure-selenide_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/allure-selenide_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/allure-selenide_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/allure-selenide_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/GoogleTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/GoogleTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-GoogleTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-GoogleTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/GoogleTest.java" afterPath="$PROJECT_DIR$/src/test/java/GoogleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -77,8 +101,20 @@
       <file leaf-file-name="GoogleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="206">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/allure-report/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -474,14 +510,14 @@
         <option value="$PROJECT_DIR$/target/allure-results/environment.xml" />
         <option value="$PROJECT_DIR$/src/test/java/listeners/NewAllureSelenide.java" />
         <option value="$PROJECT_DIR$/src/test/java/listeners/AllureSelenide.java" />
-        <option value="$PROJECT_DIR$/target/allure-report/index.html" />
         <option value="$PROJECT_DIR$/src/test/java/BeforeTests.java" />
         <option value="$PROJECT_DIR$/target/allure-results/environment.properties" />
         <option value="$PROJECT_DIR$/src/test/java/DataDrivenTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/GoogleTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/target/allure-report/index.html" />
+        <option value="$PROJECT_DIR$/src/test/java/GoogleTest.java" />
       </list>
     </option>
   </component>
@@ -592,6 +628,23 @@
             <path>
               <item name="allure-selenide" type="b2602c69:ProjectViewProjectNode" />
               <item name="allure-selenide" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="allure-selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allure-selenide" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allure-selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allure-selenide" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allure-selenide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allure-selenide" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -825,9 +878,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataDrivenTest - 2018.05.06 at 09h 52m 08s.xml">
-      <configuration name="DataDrivenTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DataDrivenTest - 2018.05.06 at 09h 54m 33s.xml">
       <configuration name="DataDrivenTest" configurationId="TestNG" />
     </history-entry>
@@ -853,6 +903,9 @@
       <configuration name="DataDrivenTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="selenide-allure - 2018.05.06 at 16h 25m 17s.xml">
+      <configuration name="selenide-allure" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="selenide-allure - 2018.05.06 at 18h 00m 41s.xml">
       <configuration name="selenide-allure" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1078,7 +1131,7 @@
         <state relative-caret-position="124">
           <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#463#464#0" expanded="false" />
             <element signature="e#496#497#0" expanded="false" />
           </folding>
@@ -1117,7 +1170,7 @@
         <state relative-caret-position="151">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1137,16 +1190,8 @@
         <state relative-caret-position="295">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/GooglePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,22 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1184,8 +1213,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/GooglePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GoogleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

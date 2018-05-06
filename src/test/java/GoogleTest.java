@@ -1,4 +1,6 @@
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import listeners.AllureOnFailListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
@@ -22,10 +24,11 @@ import pages.SearchResultsPage;
 
 //@Listeners(AllureOnFailListener.class)
 @Title("Test")
+@Feature("Search example Testing")
 public class GoogleTest extends BeforeTests{
 
-  @Features("Search Baidu Testing")
-  @Stories("baidu testing")
+
+  @Story("baidu testing")
   @Test
   public void userCanSearch() {
     GooglePage page = open("http://www.baidu.com/", GooglePage.class);
@@ -34,7 +37,7 @@ public class GoogleTest extends BeforeTests{
     results.getResult(0).shouldHave(text("Selenide"));
   }
 
-    @Features("use parameters")
+    @Story("use parameters")
     @Parameters({ "username", "password" })
     @Test
     public void useParameters(@Optional("mysql") String username, @Optional("mysql") String password) {

@@ -2,6 +2,12 @@
 .gradle/
 .settings/
 .idea/
-build
-target
-bin
+
+
+.classpath
+.project
+
+
+/build
+/target
+/bin
