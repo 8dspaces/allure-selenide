@@ -1,6 +1,7 @@
 
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
+import io.qameta.allure.TmsLink;
 import listeners.AllureOnFailListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
@@ -28,9 +29,11 @@ import pages.SearchResultsPage;
 public class GoogleTest extends BeforeTests{
 
 
+    @TmsLink("C1234-{username}")
   @Story("baidu testing")
+    @Parameters({ "username", "password" })
   @Test
-  public void userCanSearch() {
+  public void userCanSearch(String username, String password) {
     GooglePage page = open("http://www.baidu.com/", GooglePage.class);
     SearchResultsPage results = page.searchFor("selenide");
     //results.getResults().shouldHave(sizeGreaterThan(1));
