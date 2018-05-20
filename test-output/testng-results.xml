@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestSuite" duration-ms="30621" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:52Z">
+    <groups>
+    </groups>
+    <test name="MyTests" duration-ms="30621" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:52Z">
+      <class name="TestTest">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Two" name="prepare" is-config="true" duration-ms="68" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Two" name="setUp" is-config="true" duration-ms="2" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestTest@103f852]" test-instance-name="Case-Two" name="test1" duration-ms="133" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Two" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Two" name="setUp" is-config="true" duration-ms="3" started-at="2018-05-20T09:48:21Z" finished-at="2018-05-20T09:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestTest@103f852]" test-instance-name="Case-Two" name="test2" duration-ms="10008" started-at="2018-05-20T09:48:21Z" depends-on-methods="TestTest.test1" finished-at="2018-05-20T09:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Two" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Two" name="clean" is-config="true" duration-ms="2" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="prepare()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-One" name="prepare" is-config="true" duration-ms="0" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-One" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestTest@1f021e6c]" test-instance-name="Case-One" name="test1" duration-ms="9" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-One" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-One" name="setUp" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:32Z" finished-at="2018-05-20T09:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestTest@1f021e6c]" test-instance-name="Case-One" name="test2" duration-ms="10011" started-at="2018-05-20T09:48:32Z" depends-on-methods="TestTest.test1" finished-at="2018-05-20T09:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-One" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="prepare()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="prepare" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-One" name="clean" is-config="true" duration-ms="0" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="test1" duration-ms="12" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="setUp" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:42Z" finished-at="2018-05-20T09:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="test2" duration-ms="10007" started-at="2018-05-20T09:48:42Z" depends-on-methods="TestTest.test1" finished-at="2018-05-20T09:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown(java.lang.reflect.Method)[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="tearDown" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:52Z" finished-at="2018-05-20T09:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestTest.test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:TestTest@587c290d]" test-instance-name="Case-Three" name="clean" is-config="true" duration-ms="1" started-at="2018-05-20T09:48:52Z" finished-at="2018-05-20T09:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- TestTest -->
+    </test> <!-- MyTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

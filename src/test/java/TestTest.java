@@ -55,7 +55,7 @@ public class TestTest implements ITest//extends TestNameSetter
 //        System.out.print(method.getName());
 //    }
 
-    @DataProvider( name = "prov" )
+    @DataProvider( name = "prov")
     public static Object[][] dataProvider()
     {
         System.out.println( "[" + Thread.currentThread().getId() +  "] Provide data" );
