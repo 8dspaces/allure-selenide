@@ -23,7 +23,7 @@ import pages.SearchResultsPage;
 
 
 
-//@Listeners(AllureOnFailListener.class)
+@Listeners(AllureOnFailListener.class)
 @Title("Test")
 @Feature("Search example Testing")
 public class GoogleTest extends BeforeTests{

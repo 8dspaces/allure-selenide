@@ -1,10 +1,16 @@
+import config.Values;
+import javafx.scene.layout.Priority;
+import listeners.AllureOnFailListener;
 import org.testng.ITest;
 import org.testng.annotations.*;
+import ru.yandex.qatools.allure.annotations.Step;
 import util.SetTestName;
 import util.TestNameSetter;
 
 import java.lang.reflect.Method;
 
+
+@Listeners(AllureOnFailListener.class)
 public class TestTest implements ITest//extends TestNameSetter
 {
     private  ThreadLocal<String> param = new ThreadLocal<>();
@@ -13,7 +19,7 @@ public class TestTest implements ITest//extends TestNameSetter
 
     //private String newTestName = "";
 
-    @Factory( dataProvider = "prov" )
+    @Factory( dataProvider = "prov")
     public TestTest( String name,String param)
     {
         System.out.println( "[" + Thread.currentThread().getId() +  "] factory" );
@@ -67,15 +73,28 @@ public class TestTest implements ITest//extends TestNameSetter
     }
 
     @BeforeClass
+    @Test()
     public void prepare()
     {
         System.out.println( "[" + Thread.currentThread().getId() +  "] Prepare " + this.param.get() );
     }
+    @AfterClass
+    //@Test()
+    public void clean()
+    {
+        System.out.println( "[" + Thread.currentThread().getId() +  "] clean " + this.param.get() );
+    }
 
-    @Test
+    @Test(dependsOnMethods ="prepare")
     public void test1()
     {
         System.out.println( "[" + Thread.currentThread().getId() +  "] Test1 " + this.param.get()  );
+        this.Example();
+    }
+
+    @Step("Create new user, Step {0}, Status \"{1}\"")
+    private void Example() {
+       System.out.println("example");
     }
 
 
@@ -86,15 +105,15 @@ public class TestTest implements ITest//extends TestNameSetter
         sleep();
     }
 
-    @AfterClass
-    public void clean()
-    {
-        System.out.println( "[" + Thread.currentThread().getId() +  "] Clean " + this.param.get()  );
-    }
+//    @AfterClass
+//    public void clean()
+//    {
+//        System.out.println( "[" + Thread.currentThread().getId() +  "] Clean " + this.param.get()  );
+//    }
 
     private void sleep() {
         try {
-            Thread.sleep(10000);
+            Thread.sleep(5000);
         } catch (Exception ignored) {}
     }
 }

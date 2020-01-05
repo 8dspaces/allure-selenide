@@ -1,3 +1,4 @@
+import com.codeborne.selenide.WebDriverRunner;
 import config.Values;
 
 import listeners.AllureSelenide;
@@ -30,7 +31,9 @@ public class BeforeTests {
 
     @AfterClass
     public void tearDown() {
-        getWebDriver().quit();
+
+        WebDriverRunner.getWebDriver().close();
+        //getWebDriver().quit();
     }
 
 }
